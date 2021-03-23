@@ -1,0 +1,117 @@
+
+
+@font-face {
+    src: url('./fonts/Roboto-Regular.ttf');
+    font-family: "Roboto-Regular";
+}
+
+@font-face {
+    src: url('./fonts/CrimsonText-Bold.ttf');
+    font-family: "CrimsonText-Bold";
+}
+
+
+body {
+
+	font-family: "Roboto-Regular", Arial, sans-serif;
+	background-image: url(background_pic.PNG);
+	background-repeat: repeat;
+}
+
+
+
+h1, h2 {
+	font-family: CrimsonText-Bold, Times New Roman, serif;
+	display: block;
+}
+
+h2 {
+	text-decoration: underline;
+	color: #196e8a;
+}
+
+h1 {
+	color: #28198a;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
+.header {
+	padding: 20px;
+	border: 3px solid blue;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	justify-content: space-between;
+	flex: 0;
+	margin-bottom: 50px;
+
+}
+
+.header-link {
+    margin: 40px;
+    }
+
+.title {
+text-align: center;
+}
+
+.main {
+	display: flex;
+}
+
+.myphoto {
+    	text-align: center;
+    	padding: 20px;
+    	border: solid 2px blue;
+    	width: 350px;
+
+    }
+
+
+    .link:hover {
+color: green;
+    }
+
+    .subtitle {
+    	display: block;
+    	padding-left: 10px;
+    }
+
+    .photo-and-contacts {
+    	
+    	text-align: center;
+   
+    	justify-content: center;
+    	
+    }
+
+    .contents {
+    	margin-left: 50px; 
+    	margin-right: 50px;
+    	width: 700px;
+
+    }
+
+    .contacts {
+    	margin-top: 50px;
+    	text-align: center;
+    }
+
+    .subsection {
+    	 
+    }
+
+    .titles {
+    	display: flex;
+    	justify-content: left;
+    	}
+
+    .paragraph {
+     display: flex;
+     justify-content: flex-start;
+    }
+
+    
